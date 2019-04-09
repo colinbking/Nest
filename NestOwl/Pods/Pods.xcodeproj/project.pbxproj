@@ -1,0 +1,971 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		011EFC96A6B2E527696EB401010F0C5C /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E0735D8BF5BB0FF6D8F12036097814 /* iCarousel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		31288F9A08704ED33A65E9EE91F251EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A87EFC1E3074BF96CE56BFE8D51A20 /* Foundation.framework */; };
+		3CCC0FBCB5E9203059CF6DCE73E8D00F /* iCarousel.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BF721CFC7924D7C8885A8B8855CCCA /* iCarousel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40A906B1A215F337E93E0BAA7BEFC4BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A87EFC1E3074BF96CE56BFE8D51A20 /* Foundation.framework */; };
+		4461C401D02D72475414757E3BF97B59 /* Pods-NestOwlTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57B98B4866CFAE0574E94167B0BCD3BA /* Pods-NestOwlTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		677FECB89C9318DAC002916878918477 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A87EFC1E3074BF96CE56BFE8D51A20 /* Foundation.framework */; };
+		7AF7F0981B92E0504C128A3A68ACCE3B /* Pods-NestOwl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88BC3DD02D817868C861935412B45272 /* Pods-NestOwl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92527EDDF97C1A0D3746C675E010803A /* Pods-NestOwlUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6D5AEA1D3C684A6FCC98184D326846C /* Pods-NestOwlUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B13FA00A538305A319360FCE210D8078 /* Pods-NestOwlTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8618CE458641D17D14CB96068FA2206B /* Pods-NestOwlTests-dummy.m */; };
+		B71C715BCD4922DDE3A1C3BAC95C9237 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CC5787C4D7225262138F10874B1FB4 /* QuartzCore.framework */; };
+		B8135363300C001DD9F69631014A4102 /* Pods-NestOwlUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAA7F52FE8E7AB74E5CF74688BF7AA6 /* Pods-NestOwlUITests-dummy.m */; };
+		D87C44311378769A3E74B32739F6812C /* iCarousel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3615AFDE0C9C71369F87A49F84724D64 /* iCarousel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCD6067A9F159AAAE14D18B5A78A47FB /* iCarousel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC132126D8C4B6070CA38B2F63BE6B6 /* iCarousel-dummy.m */; };
+		DD8FBB2DD9598692F81A72A45A83E720 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A87EFC1E3074BF96CE56BFE8D51A20 /* Foundation.framework */; };
+		EE1C1746FED06E4E7A406BBA2A4650E4 /* Pods-NestOwl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E9760CC94D45AD1C7F1E39D21D5C84 /* Pods-NestOwl-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B97AB5B469A832471C9E39EE81BE1CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DB2556FB9479757B7E3BC05BC7BA2EA;
+			remoteInfo = iCarousel;
+		};
+		6F84AE38E2A04E91AC79631971E93E10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2D44E7B79C5172441321809ED1ADD96;
+			remoteInfo = "Pods-NestOwl";
+		};
+		8D491C00ECE950A41E1DE909453B0899 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2D44E7B79C5172441321809ED1ADD96;
+			remoteInfo = "Pods-NestOwl";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09E0735D8BF5BB0FF6D8F12036097814 /* iCarousel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = iCarousel.m; path = iCarousel/iCarousel.m; sourceTree = "<group>"; };
+		0FC0B5A9300F1FE083B6BDA23FF24D4C /* Pods-NestOwlUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NestOwlUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		115EF7D83C5BAEB55C554FB7750CB042 /* iCarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iCarousel.framework; path = iCarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BF721CFC7924D7C8885A8B8855CCCA /* iCarousel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iCarousel.h; path = iCarousel/iCarousel.h; sourceTree = "<group>"; };
+		1B3EF42C0243D164E69B335D54D1F29D /* Pods-NestOwlUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NestOwlUITests-Info.plist"; sourceTree = "<group>"; };
+		2741E4CA30165B7553F27E17F94645FE /* iCarousel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "iCarousel-Info.plist"; sourceTree = "<group>"; };
+		31E9760CC94D45AD1C7F1E39D21D5C84 /* Pods-NestOwl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NestOwl-dummy.m"; sourceTree = "<group>"; };
+		3615AFDE0C9C71369F87A49F84724D64 /* iCarousel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iCarousel-umbrella.h"; sourceTree = "<group>"; };
+		3AB5AFD4E6B7F8413A167E1E8104DA81 /* Pods-NestOwlUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NestOwlUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3F4D8A76AA10E6BD43F85B3726AB9441 /* Pods-NestOwl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NestOwl-Info.plist"; sourceTree = "<group>"; };
+		4A94E270413A6B2562C62C89F1D9BCC8 /* Pods-NestOwlTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NestOwlTests-Info.plist"; sourceTree = "<group>"; };
+		57B98B4866CFAE0574E94167B0BCD3BA /* Pods-NestOwlTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NestOwlTests-umbrella.h"; sourceTree = "<group>"; };
+		6AEFD4EF1C59A50FC6AFC84E27922C51 /* Pods-NestOwlTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NestOwlTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6C9F6F0E13D8CCC89A57A1C2F123E16D /* Pods-NestOwlTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NestOwlTests.modulemap"; sourceTree = "<group>"; };
+		73A87EFC1E3074BF96CE56BFE8D51A20 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7B83F0F43958BDE89E5BB061F05471E5 /* Pods_NestOwlUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NestOwlUITests.framework; path = "Pods-NestOwlUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DB2C85CEAFAF7829593E5E2BB2776E3 /* Pods-NestOwlUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NestOwlUITests.modulemap"; sourceTree = "<group>"; };
+		848E443BBFA5D54B08E6041756043203 /* Pods-NestOwl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NestOwl.modulemap"; sourceTree = "<group>"; };
+		8618CE458641D17D14CB96068FA2206B /* Pods-NestOwlTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NestOwlTests-dummy.m"; sourceTree = "<group>"; };
+		88BC3DD02D817868C861935412B45272 /* Pods-NestOwl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NestOwl-umbrella.h"; sourceTree = "<group>"; };
+		8AAA7F52FE8E7AB74E5CF74688BF7AA6 /* Pods-NestOwlUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NestOwlUITests-dummy.m"; sourceTree = "<group>"; };
+		93CC5787C4D7225262138F10874B1FB4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		96AE1A5DD6ADDF8BE9DA649661317908 /* Pods-NestOwlTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NestOwlTests.debug.xcconfig"; sourceTree = "<group>"; };
+		993E60063AFA143E820EDF6A8DF9495F /* Pods-NestOwlTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NestOwlTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A80ABB7A135C1B395326163368278873 /* Pods-NestOwl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NestOwl.release.xcconfig"; sourceTree = "<group>"; };
+		ACC033B4F3AD73BF6690BC53937D45D1 /* iCarousel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iCarousel.modulemap; sourceTree = "<group>"; };
+		B4EDE3553ADEDBE17CFA8F567BBBD6F8 /* Pods-NestOwl-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NestOwl-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA8CDF0FA423DDA6CFD02EB63927888A /* Pods_NestOwlTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NestOwlTests.framework; path = "Pods-NestOwlTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3C7A05E48226322DDBC7B17A939AD6 /* Pods-NestOwl-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NestOwl-frameworks.sh"; sourceTree = "<group>"; };
+		C376C5C69AD4CC6ED8B3884F606DD8AD /* Pods_NestOwl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NestOwl.framework; path = "Pods-NestOwl.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67F4FC0D4F6E8F243D81772A14A1D5B /* iCarousel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iCarousel.xcconfig; sourceTree = "<group>"; };
+		CBC132126D8C4B6070CA38B2F63BE6B6 /* iCarousel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iCarousel-dummy.m"; sourceTree = "<group>"; };
+		CC314261A33C46ED1ABBD101E4DC84C7 /* Pods-NestOwlUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NestOwlUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D968A4A84B7FC6B2603C0E62DA0B3DDB /* Pods-NestOwl-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NestOwl-acknowledgements.plist"; sourceTree = "<group>"; };
+		DA9831FF24B5221DE58C0BF5932CF7BB /* Pods-NestOwl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NestOwl.debug.xcconfig"; sourceTree = "<group>"; };
+		DF0BC682057C7BD997C088E61C20091C /* iCarousel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iCarousel-prefix.pch"; sourceTree = "<group>"; };
+		E6D5AEA1D3C684A6FCC98184D326846C /* Pods-NestOwlUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NestOwlUITests-umbrella.h"; sourceTree = "<group>"; };
+		E957F8B18F94D80D1B669239FB9C757C /* Pods-NestOwlUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NestOwlUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F523243865C7A62CC8291D6D4B8C13CE /* Pods-NestOwlTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NestOwlTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67E6A8F35CB1C57DB8DF0B0389FA82B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A906B1A215F337E93E0BAA7BEFC4BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		756F25A6FDDED09AE26DA7DCEBBE1275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				677FECB89C9318DAC002916878918477 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DFF0AD6CFE87FFECEF7F97448DE304B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD8FBB2DD9598692F81A72A45A83E720 /* Foundation.framework in Frameworks */,
+				B71C715BCD4922DDE3A1C3BAC95C9237 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4ECB591574204528079E793A98C395 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31288F9A08704ED33A65E9EE91F251EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				882A293BD79D4DA49D52A901C0171109 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3746C9F2913A89B4E38FB9B5B0BFA8DB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				57A98C4B09AD86C1ADBBD9BDC157E806 /* Pods-NestOwl */,
+				DB8DED8F9B69F4C602A89F89A8F18273 /* Pods-NestOwlTests */,
+				5D928A898E3B4B7A1F70CA396F10AF03 /* Pods-NestOwlUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		57A98C4B09AD86C1ADBBD9BDC157E806 /* Pods-NestOwl */ = {
+			isa = PBXGroup;
+			children = (
+				848E443BBFA5D54B08E6041756043203 /* Pods-NestOwl.modulemap */,
+				B4EDE3553ADEDBE17CFA8F567BBBD6F8 /* Pods-NestOwl-acknowledgements.markdown */,
+				D968A4A84B7FC6B2603C0E62DA0B3DDB /* Pods-NestOwl-acknowledgements.plist */,
+				31E9760CC94D45AD1C7F1E39D21D5C84 /* Pods-NestOwl-dummy.m */,
+				BE3C7A05E48226322DDBC7B17A939AD6 /* Pods-NestOwl-frameworks.sh */,
+				3F4D8A76AA10E6BD43F85B3726AB9441 /* Pods-NestOwl-Info.plist */,
+				88BC3DD02D817868C861935412B45272 /* Pods-NestOwl-umbrella.h */,
+				DA9831FF24B5221DE58C0BF5932CF7BB /* Pods-NestOwl.debug.xcconfig */,
+				A80ABB7A135C1B395326163368278873 /* Pods-NestOwl.release.xcconfig */,
+			);
+			name = "Pods-NestOwl";
+			path = "Target Support Files/Pods-NestOwl";
+			sourceTree = "<group>";
+		};
+		5D928A898E3B4B7A1F70CA396F10AF03 /* Pods-NestOwlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7DB2C85CEAFAF7829593E5E2BB2776E3 /* Pods-NestOwlUITests.modulemap */,
+				3AB5AFD4E6B7F8413A167E1E8104DA81 /* Pods-NestOwlUITests-acknowledgements.markdown */,
+				0FC0B5A9300F1FE083B6BDA23FF24D4C /* Pods-NestOwlUITests-acknowledgements.plist */,
+				8AAA7F52FE8E7AB74E5CF74688BF7AA6 /* Pods-NestOwlUITests-dummy.m */,
+				1B3EF42C0243D164E69B335D54D1F29D /* Pods-NestOwlUITests-Info.plist */,
+				E6D5AEA1D3C684A6FCC98184D326846C /* Pods-NestOwlUITests-umbrella.h */,
+				E957F8B18F94D80D1B669239FB9C757C /* Pods-NestOwlUITests.debug.xcconfig */,
+				CC314261A33C46ED1ABBD101E4DC84C7 /* Pods-NestOwlUITests.release.xcconfig */,
+			);
+			name = "Pods-NestOwlUITests";
+			path = "Target Support Files/Pods-NestOwlUITests";
+			sourceTree = "<group>";
+		};
+		5F5B082DA0161B207B941FD99BDCE391 /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				18BF721CFC7924D7C8885A8B8855CCCA /* iCarousel.h */,
+				09E0735D8BF5BB0FF6D8F12036097814 /* iCarousel.m */,
+				D69DCF25239870062AB2D51E6189567B /* Support Files */,
+			);
+			name = iCarousel;
+			path = iCarousel;
+			sourceTree = "<group>";
+		};
+		8701F633070FF8A84E0A5774C83AE924 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				115EF7D83C5BAEB55C554FB7750CB042 /* iCarousel.framework */,
+				C376C5C69AD4CC6ED8B3884F606DD8AD /* Pods_NestOwl.framework */,
+				BA8CDF0FA423DDA6CFD02EB63927888A /* Pods_NestOwlTests.framework */,
+				7B83F0F43958BDE89E5BB061F05471E5 /* Pods_NestOwlUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		882A293BD79D4DA49D52A901C0171109 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73A87EFC1E3074BF96CE56BFE8D51A20 /* Foundation.framework */,
+				93CC5787C4D7225262138F10874B1FB4 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				ED2AD11940207C53D20D5B7EFE14961D /* Pods */,
+				8701F633070FF8A84E0A5774C83AE924 /* Products */,
+				3746C9F2913A89B4E38FB9B5B0BFA8DB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D69DCF25239870062AB2D51E6189567B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACC033B4F3AD73BF6690BC53937D45D1 /* iCarousel.modulemap */,
+				C67F4FC0D4F6E8F243D81772A14A1D5B /* iCarousel.xcconfig */,
+				CBC132126D8C4B6070CA38B2F63BE6B6 /* iCarousel-dummy.m */,
+				2741E4CA30165B7553F27E17F94645FE /* iCarousel-Info.plist */,
+				DF0BC682057C7BD997C088E61C20091C /* iCarousel-prefix.pch */,
+				3615AFDE0C9C71369F87A49F84724D64 /* iCarousel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/iCarousel";
+			sourceTree = "<group>";
+		};
+		DB8DED8F9B69F4C602A89F89A8F18273 /* Pods-NestOwlTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C9F6F0E13D8CCC89A57A1C2F123E16D /* Pods-NestOwlTests.modulemap */,
+				F523243865C7A62CC8291D6D4B8C13CE /* Pods-NestOwlTests-acknowledgements.markdown */,
+				6AEFD4EF1C59A50FC6AFC84E27922C51 /* Pods-NestOwlTests-acknowledgements.plist */,
+				8618CE458641D17D14CB96068FA2206B /* Pods-NestOwlTests-dummy.m */,
+				4A94E270413A6B2562C62C89F1D9BCC8 /* Pods-NestOwlTests-Info.plist */,
+				57B98B4866CFAE0574E94167B0BCD3BA /* Pods-NestOwlTests-umbrella.h */,
+				96AE1A5DD6ADDF8BE9DA649661317908 /* Pods-NestOwlTests.debug.xcconfig */,
+				993E60063AFA143E820EDF6A8DF9495F /* Pods-NestOwlTests.release.xcconfig */,
+			);
+			name = "Pods-NestOwlTests";
+			path = "Target Support Files/Pods-NestOwlTests";
+			sourceTree = "<group>";
+		};
+		ED2AD11940207C53D20D5B7EFE14961D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F5B082DA0161B207B941FD99BDCE391 /* iCarousel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A6572A04481F0FF5A901FECA49C749E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D87C44311378769A3E74B32739F6812C /* iCarousel-umbrella.h in Headers */,
+				3CCC0FBCB5E9203059CF6DCE73E8D00F /* iCarousel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		133ED66D18EE7F9D17126551EE7745DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4461C401D02D72475414757E3BF97B59 /* Pods-NestOwlTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1529FAB268D713C6AEFCF1A0C07FE67 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF7F0981B92E0504C128A3A68ACCE3B /* Pods-NestOwl-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B21042E08A3659D67D5D98FD09D27E2F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92527EDDF97C1A0D3746C675E010803A /* Pods-NestOwlUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7DB2556FB9479757B7E3BC05BC7BA2EA /* iCarousel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F9D840304C3E1AC00101560390272D6 /* Build configuration list for PBXNativeTarget "iCarousel" */;
+			buildPhases = (
+				0A6572A04481F0FF5A901FECA49C749E /* Headers */,
+				FFF2010D4A978C26911D1B54367A640C /* Sources */,
+				8DFF0AD6CFE87FFECEF7F97448DE304B /* Frameworks */,
+				028C68ADC745BA00406BE51FA8E2F98A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCarousel;
+			productName = iCarousel;
+			productReference = 115EF7D83C5BAEB55C554FB7750CB042 /* iCarousel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA0C008D81F79AEFF2653494ECE259FE /* Pods-NestOwlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F25E4B1BB0FD70E9321DADDCD78704D8 /* Build configuration list for PBXNativeTarget "Pods-NestOwlTests" */;
+			buildPhases = (
+				133ED66D18EE7F9D17126551EE7745DA /* Headers */,
+				15880309C0CFA18B9B73A89E2D4EFE89 /* Sources */,
+				756F25A6FDDED09AE26DA7DCEBBE1275 /* Frameworks */,
+				2EC9280F6A03F5A229D9CA3BDDF640FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64C689995A008B8AA2772045D34A34C3 /* PBXTargetDependency */,
+			);
+			name = "Pods-NestOwlTests";
+			productName = "Pods-NestOwlTests";
+			productReference = BA8CDF0FA423DDA6CFD02EB63927888A /* Pods_NestOwlTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C2D44E7B79C5172441321809ED1ADD96 /* Pods-NestOwl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 322AFD2841281D2105C1B6F7F83274A9 /* Build configuration list for PBXNativeTarget "Pods-NestOwl" */;
+			buildPhases = (
+				A1529FAB268D713C6AEFCF1A0C07FE67 /* Headers */,
+				B182DB4551E1DF09140ABF5CEDC6AD89 /* Sources */,
+				67E6A8F35CB1C57DB8DF0B0389FA82B3 /* Frameworks */,
+				15CB3697C1DC5DC2BFA88669DA81268A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5F78FB917A3A22C922D58754F76ACDA /* PBXTargetDependency */,
+			);
+			name = "Pods-NestOwl";
+			productName = "Pods-NestOwl";
+			productReference = C376C5C69AD4CC6ED8B3884F606DD8AD /* Pods_NestOwl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CFAA6D59D8D89E9AC1C083032BBD5D58 /* Pods-NestOwlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C50738E1E8C87B787C4B3F26EBA381F /* Build configuration list for PBXNativeTarget "Pods-NestOwlUITests" */;
+			buildPhases = (
+				B21042E08A3659D67D5D98FD09D27E2F /* Headers */,
+				38FC2E0B77B7DCB8F9DB5F7EBA4798FF /* Sources */,
+				FD4ECB591574204528079E793A98C395 /* Frameworks */,
+				501134A814A08946DF67369495459032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB744655EF42286AE6E4A25943545363 /* PBXTargetDependency */,
+			);
+			name = "Pods-NestOwlUITests";
+			productName = "Pods-NestOwlUITests";
+			productReference = 7B83F0F43958BDE89E5BB061F05471E5 /* Pods_NestOwlUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8701F633070FF8A84E0A5774C83AE924 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DB2556FB9479757B7E3BC05BC7BA2EA /* iCarousel */,
+				C2D44E7B79C5172441321809ED1ADD96 /* Pods-NestOwl */,
+				AA0C008D81F79AEFF2653494ECE259FE /* Pods-NestOwlTests */,
+				CFAA6D59D8D89E9AC1C083032BBD5D58 /* Pods-NestOwlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		028C68ADC745BA00406BE51FA8E2F98A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15CB3697C1DC5DC2BFA88669DA81268A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EC9280F6A03F5A229D9CA3BDDF640FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		501134A814A08946DF67369495459032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15880309C0CFA18B9B73A89E2D4EFE89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13FA00A538305A319360FCE210D8078 /* Pods-NestOwlTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38FC2E0B77B7DCB8F9DB5F7EBA4798FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8135363300C001DD9F69631014A4102 /* Pods-NestOwlUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B182DB4551E1DF09140ABF5CEDC6AD89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1C1746FED06E4E7A406BBA2A4650E4 /* Pods-NestOwl-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF2010D4A978C26911D1B54367A640C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD6067A9F159AAAE14D18B5A78A47FB /* iCarousel-dummy.m in Sources */,
+				011EFC96A6B2E527696EB401010F0C5C /* iCarousel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64C689995A008B8AA2772045D34A34C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NestOwl";
+			target = C2D44E7B79C5172441321809ED1ADD96 /* Pods-NestOwl */;
+			targetProxy = 8D491C00ECE950A41E1DE909453B0899 /* PBXContainerItemProxy */;
+		};
+		A5F78FB917A3A22C922D58754F76ACDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iCarousel;
+			target = 7DB2556FB9479757B7E3BC05BC7BA2EA /* iCarousel */;
+			targetProxy = 4B97AB5B469A832471C9E39EE81BE1CE /* PBXContainerItemProxy */;
+		};
+		AB744655EF42286AE6E4A25943545363 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NestOwl";
+			target = C2D44E7B79C5172441321809ED1ADD96 /* Pods-NestOwl */;
+			targetProxy = 6F84AE38E2A04E91AC79631971E93E10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11B7749393D39CEC133FEBD54F09DE48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C67F4FC0D4F6E8F243D81772A14A1D5B /* iCarousel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iCarousel/iCarousel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iCarousel/iCarousel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/iCarousel/iCarousel.modulemap";
+				PRODUCT_MODULE_NAME = iCarousel;
+				PRODUCT_NAME = iCarousel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1C5E375F83BC8232A994342FB0A183DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C67F4FC0D4F6E8F243D81772A14A1D5B /* iCarousel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iCarousel/iCarousel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iCarousel/iCarousel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/iCarousel/iCarousel.modulemap";
+				PRODUCT_MODULE_NAME = iCarousel;
+				PRODUCT_NAME = iCarousel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3E3653D283508C2D24397D700CF7C3A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96AE1A5DD6ADDF8BE9DA649661317908 /* Pods-NestOwlTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NestOwlTests/Pods-NestOwlTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NestOwlTests/Pods-NestOwlTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		659C77B10215F685E44E6628A9B79F5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC314261A33C46ED1ABBD101E4DC84C7 /* Pods-NestOwlUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NestOwlUITests/Pods-NestOwlUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NestOwlUITests/Pods-NestOwlUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9D58C8E6C87533EBBA5A7258F052972B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A80ABB7A135C1B395326163368278873 /* Pods-NestOwl.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NestOwl/Pods-NestOwl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NestOwl/Pods-NestOwl.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A105C1752A0A49B30ED621B71E226CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C1391485F05B41BD35738A433056B7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CA5D1372F37FD03037E4F0909E25D3FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E957F8B18F94D80D1B669239FB9C757C /* Pods-NestOwlUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NestOwlUITests/Pods-NestOwlUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NestOwlUITests/Pods-NestOwlUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4021FB15770DF4A7D70417E3E7E6A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 993E60063AFA143E820EDF6A8DF9495F /* Pods-NestOwlTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NestOwlTests/Pods-NestOwlTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NestOwlTests/Pods-NestOwlTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F5C2F5ACC2EE79C917DB9828AE7C8622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA9831FF24B5221DE58C0BF5932CF7BB /* Pods-NestOwl.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NestOwl/Pods-NestOwl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NestOwl/Pods-NestOwl.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		322AFD2841281D2105C1B6F7F83274A9 /* Build configuration list for PBXNativeTarget "Pods-NestOwl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C2F5ACC2EE79C917DB9828AE7C8622 /* Debug */,
+				9D58C8E6C87533EBBA5A7258F052972B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C50738E1E8C87B787C4B3F26EBA381F /* Build configuration list for PBXNativeTarget "Pods-NestOwlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA5D1372F37FD03037E4F0909E25D3FD /* Debug */,
+				659C77B10215F685E44E6628A9B79F5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1391485F05B41BD35738A433056B7FA /* Debug */,
+				A105C1752A0A49B30ED621B71E226CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F9D840304C3E1AC00101560390272D6 /* Build configuration list for PBXNativeTarget "iCarousel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B7749393D39CEC133FEBD54F09DE48 /* Debug */,
+				1C5E375F83BC8232A994342FB0A183DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F25E4B1BB0FD70E9321DADDCD78704D8 /* Build configuration list for PBXNativeTarget "Pods-NestOwlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E3653D283508C2D24397D700CF7C3A0 /* Debug */,
+				F4021FB15770DF4A7D70417E3E7E6A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
