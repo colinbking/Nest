@@ -17,3 +17,6 @@ Our team consisted of [Amanda Lu](https://github.com/aslu10), Colin King, Nathan
 [Rice Publication](https://csweb.rice.edu/content/novice-hackers-win-top-prizes-hackrice-85)
 
 [Hackathon Devpost](https://devpost.com/software/nest?ref_content=contribution-prompt&ref_feature=engagement&ref_medium=email&utm_campaign=contribution-prompt&utm_content=contribution_reminder&utm_medium=email&utm_source=transactional#app-team)
+
+![Nest](https://github.com/tGoh98/Nest/blob/master/NestOwl/NestOwl/Assets.xcassets/AppIcon.appiconset/icon2.png "Nest")
+
