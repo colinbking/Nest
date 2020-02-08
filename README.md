@@ -11,7 +11,7 @@ An example of the app in use can be seen [here](https://www.youtube.com/watch?v=
 When creating Nest, our main goal was to encourage Rice students to take full advantage of the experiences available at Rice. University is a unique experience for many students, as they are surrounded by and embedded within a lively and active culture with students of diverse backgrounds for the first time. However, difficult classes and strenuous workloads often cause students to slip into harmful routines and antisocial lifestyles. Nest allows for Rice students to break out of the monotony of classes and homework and enjoy the often underutilized resources on campus, such as going to the Recreation Center, enjoying the beauty of skyspace, or even just eating at different serveries.
 
 ## Acknowledgements
-Our team consisted of [Amanda Lu](https://github.com/aslu10), Colin King, Nathan Park, and Timothy Goh (me)
+Our team consisted of [Amanda Lu](https://github.com/aslu10), Colin King, Nathan Park, and Timothy Goh
 
 ## Links
 [Rice Publication](https://csweb.rice.edu/content/novice-hackers-win-top-prizes-hackrice-85)
